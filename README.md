@@ -182,3 +182,44 @@ tokenler geldikten sonra asagidaki komutu calistirip aga katiliyoruz.
 yarn ts-node tools/join-network.ts
 
 Bu komut size TX id: null verirse tokeniniz eksiktir, uzun bir TX verirse islem başarılı olmus demektir.
+
+
+#Staking aktif etmek sunlari yapiyoruz.
+
+cd /ar-io-node/testnet-contract/
+
+sudo nano tools/update-gateway-settings.ts
+
+
+Burda 3 noktada degisiklik yapiyoruz ve basinda // isareti kaldiriyoruz
+
+ const allowDelegatedStaking: boolean = true;
+ const delegateRewardShareRatio: number = 10;
+ const minDelegatedStake: number = 100000000;
+
+Dosyanin alt kisminda bu ücü haric diger bütün degiskenleri önlerine // ekleyerek iptal ediyoruz.
+
+
+![image](https://github.com/mesahin001/ar-io/assets/62426828/bcd4c485-d19f-492a-b107-75cbf1b1ac76)
+
+daha sonrada bu komutu calistiriyoruz:
+
+yarn ts-node tools/update-gateway-settings.ts
+
+Baska birine yada kendinize delege etmek icin su dosyada degisiklik yapmak gerekiyor:
+
+sudo nano tools/delegate-stake.ts
+
+Burda sadece iki satirda degisilik yapilacak:
+
+ const qty = 500;  //Ne kadarlik token stake etmek istiyorsaniz buraya yazin
+ const target = 'l0iODykz8poPjVJ2***********************'; //Hangi cüzdan adresine stake yapacaksiniz buraya yaziyoruz
+
+
+![image](https://github.com/mesahin001/ar-io/assets/62426828/332cc06f-def6-45f1-a285-c884016390bb)
+
+
+
+
+
+ 
