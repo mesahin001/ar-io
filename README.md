@@ -191,7 +191,7 @@ cd /ar-io-node/testnet-contract/
 sudo nano tools/update-gateway-settings.ts
 
 
-Burda 3 noktada degisiklik yapiyoruz ve basinda // isareti kaldiriyoruz
+Burda 3 noktada degisiklik yapiyoruz ve bastaki // isareti kaldiriyoruz
 
  const allowDelegatedStaking: boolean = true;
  const delegateRewardShareRatio: number = 10;
@@ -218,7 +218,9 @@ Burda sadece iki satirda degisilik yapilacak:
 
 ![image](https://github.com/mesahin001/ar-io/assets/62426828/332cc06f-def6-45f1-a285-c884016390bb)
 
+daha sonrada bu komutu calistiriyoruz:
 
+yarn ts-node tools/delegate-stake.ts
 
 
 
