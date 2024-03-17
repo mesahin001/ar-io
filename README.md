@@ -184,7 +184,7 @@ yarn ts-node tools/join-network.ts
 Bu komut size TX id: null verirse tokeniniz eksiktir, uzun bir TX verirse islem başarılı olmus demektir.
 
 
-#Staking aktif etmek sunlari yapiyoruz.
+# Staking aktif etmek sunlari yapiyoruz.
 
 cd /ar-io-node/testnet-contract/
 
@@ -206,7 +206,7 @@ daha sonrada bu komutu calistiriyoruz:
 
 yarn ts-node tools/update-gateway-settings.ts
 
-Baska birine yada kendinize delege etmek icin su dosyada degisiklik yapmak gerekiyor:
+# Baska birine yada kendinize delege etmek icin su dosyada degisiklik yapmak gerekiyor:
 
 sudo nano tools/delegate-stake.ts
 
