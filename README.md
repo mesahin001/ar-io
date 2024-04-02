@@ -194,8 +194,11 @@ sudo nano tools/update-gateway-settings.ts
 Burda 3 noktada degisiklik yapiyoruz ve bastaki // isareti kaldiriyoruz
 
  const allowDelegatedStaking: boolean = true;
+ 
  const delegateRewardShareRatio: number = 10;
+ 
  const minDelegatedStake: number = 100;
+ 
 
 Dosyanin alt kisminda bu ücü haric diger bütün degiskenleri önlerine // ekleyerek iptal ediyoruz.
 
