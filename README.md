@@ -202,7 +202,8 @@ Burda 3 noktada degisiklik yapiyoruz ve bastaki // isareti kaldiriyoruz
 
 Dosyanin alt kisminda bu ücü haric diger bütün degiskenleri önlerine // ekleyerek iptal ediyoruz.
 
-![image](https://github.com/mesahin001/ar-io/assets/62426828/de8e399f-ea66-4be9-b028-f0f5206927f0)
+![image](https://github.com/mesahin001/ar-io/assets/62426828/36b20ea9-5379-4955-99ba-fa1351e6ae10)
+
 
 
 daha sonrada bu komutu calistiriyoruz:
@@ -216,10 +217,12 @@ sudo nano tools/delegate-stake.ts
 Burda sadece iki satirda degisilik yapilacak:
 
  const qty = 200;  //Ne kadarlik token stake etmek istiyorsaniz buraya yazin
+ 
  const target = 'l0iODykz8poPjVJ2***********************'; //Hangi cüzdan adresine stake yapacaksiniz buraya yaziyoruz
 
 
-![image](https://github.com/mesahin001/ar-io/assets/62426828/332cc06f-def6-45f1-a285-c884016390bb)
+![image](https://github.com/mesahin001/ar-io/assets/62426828/2c0d2e45-61a4-4312-8e1c-79b96eaa64ab)
+
 
 daha sonrada bu komutu calistiriyoruz:
 
