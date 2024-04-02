@@ -216,12 +216,13 @@ sudo nano tools/delegate-stake.ts
 
 Burda sadece iki satirda degisilik yapilacak:
 
- const qty = 200;  //Ne kadarlik token stake etmek istiyorsaniz buraya yazin
+ const qty = 100;  //Ne kadarlik token stake etmek istiyorsaniz buraya yazin
  
  const target = 'l0iODykz8poPjVJ2***********************'; //Hangi cüzdan adresine stake yapacaksiniz buraya yaziyoruz
 
 
-![image](https://github.com/mesahin001/ar-io/assets/62426828/2c0d2e45-61a4-4312-8e1c-79b96eaa64ab)
+![image](https://github.com/mesahin001/ar-io/assets/62426828/fe6213ac-559b-4438-b051-3a792d1b7c7b)
+
 
 
 daha sonrada bu komutu calistiriyoruz:
