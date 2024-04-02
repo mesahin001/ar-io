@@ -195,12 +195,12 @@ Burda 3 noktada degisiklik yapiyoruz ve bastaki // isareti kaldiriyoruz
 
  const allowDelegatedStaking: boolean = true;
  const delegateRewardShareRatio: number = 10;
- const minDelegatedStake: number = 100000000;
+ const minDelegatedStake: number = 100;
 
 Dosyanin alt kisminda bu ücü haric diger bütün degiskenleri önlerine // ekleyerek iptal ediyoruz.
 
+![image](https://github.com/mesahin001/ar-io/assets/62426828/de8e399f-ea66-4be9-b028-f0f5206927f0)
 
-![image](https://github.com/mesahin001/ar-io/assets/62426828/bcd4c485-d19f-492a-b107-75cbf1b1ac76)
 
 daha sonrada bu komutu calistiriyoruz:
 
@@ -212,7 +212,7 @@ sudo nano tools/delegate-stake.ts
 
 Burda sadece iki satirda degisilik yapilacak:
 
- const qty = 500;  //Ne kadarlik token stake etmek istiyorsaniz buraya yazin
+ const qty = 200;  //Ne kadarlik token stake etmek istiyorsaniz buraya yazin
  const target = 'l0iODykz8poPjVJ2***********************'; //Hangi cüzdan adresine stake yapacaksiniz buraya yaziyoruz
 
 
